@@ -1,5 +1,6 @@
-## `hash table`
-
+## `Hash`
+> key -value 의태형태
+>> string 기반 정보 기록,관리 시 hash 사
 
 - 해쉬(Hash) : 임의 값을 고정 길이로 변환하는 것
 - 해쉬 테이블(Hash Table) : 키값의 연산에 의해 직접 접근이 가능한 데이터 구조
@@ -20,6 +21,16 @@
     - 저장, 삭제, 읽기가 빈번한 겨웅
     - 캐쉬 구현시(중복 확인이 쉽기 때문)
 
+```python
+
+hashmap={}
+# a라는 키에 true라는 값을 넣다
+bool test=hashmap.put("a",true)
+#a라는 key의 값을 찾아 fine에 저
+boo fine=hash.get("a")
+
+# a라는 키가 없다면 false retrun
+hash. getOrDifault("a",false)
 
 ### `zip`
 > zip() 함수는 여러 개의 순회 가능한(iterable) 객체를 인자로 받고, 각 객체가 담고 있는 원소를 `튜플`의 형태로 차례로 접근할 수 있는 반복자(iterator)를 반환
